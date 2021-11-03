@@ -7,34 +7,49 @@
     <title>test</title>
     <style>
         body{background-color: white;}
-        div{
-            width: 100%;
-             text-align:center;
-       
-        }
+       .a_box{position: relative; height: 250px;}
+       .a{width: 100%;
+          text-align:center;
+          top: 100px;}
       .get{
         background-color:black;
       color:white;
       width:150px;
       height:55px;
       font-size:20px;
-      top: 30%;
-      position: absolute; left: 50%; margin-left: -85px; bottom: 20%;
+      /* top: 30%; */
+      position: absolute; left: 50%; margin-left: -85px; bottom: 30%;
       }
       .example{text-align: center;  
               width:25%;
               bottom:50%;
-              
-   }
-  
-  
 
+   }
+      .wrapper{width: 1170px; margin: 0 auto;}
+      
+
+    header{height: 75px; background-color: white; position: fixed; width: 100%; z-index: 9999; top: 0;left: 0;}
+    .menu{float: right;}
+    .menu li{float: left;}
+    .menu a{ padding: 0 15px; display: block;}
+    
     </style>
 </head>
 <body>
-  <h2>Simply</h2> <pre>HOME  POTPOLO  CONTACT BLOG </pre> 
-  <div><h1>A MINIMAL, CLEAN<br>LAYOUT FOR WEB DESIGN.</h1></div>
-  <button type="button" class="get">Get Started</button>
+ <header>
+    <div class="wrapper"> 
+      <h2>Simply</h2>
+      <nav>
+          <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">BLOG</a></li>
+          </ul>
+      </nav>
+     </div>
+  </header> 
+    <div class="a_box"><div class="a"><h1>A MINIMAL, CLEAN<br>LAYOUT FOR WEB DESIGN.</h1></div>
+  <button type="button" class="get">Get Started</button></div>
   <div class="example"><h2>EASY TO EDIT</h2>
  <p>lorde iptes dets as awer.coceeasdfg asasdfga asd.Asdfa asdfg asdfg as asdfgasdfggas.as asdfg asdfa asdasdf asdf asdfasdf asdasd asdf as asdsasdfas</p>
  </div>
